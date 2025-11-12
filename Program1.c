@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int Main () {
+int main () {
     int i;
     int ans1, ans2, ans3, ans4, ans5;
     int point1, point2, point3, point4, point5, point6, point7, point8, point9, point10;
@@ -34,7 +34,7 @@ int Main () {
         if (ans1==2) {
             printf("Correct Answer\n");
             point1 = 5;
-            prinf("you have a scored  %d point\n", point1);
+            printf("you have a scored  %d point\n", point1);
         }
         else {
             printf("Wrong Answer \n");
@@ -78,8 +78,51 @@ int Main () {
           else {
             printf("Wrong Answer\n");
             point03 = 0;
-            printf("You have ");
+            printf("You have scored %d point\n", point03);
           }
+          printf("4) Firewall in a computer is used for?\n\n");
+          printf("1) Security\n");
+          printf("2) Data Transmission\n");
+          printf("3) Monitoring\n");
+          printf("4) Authentication\n");
+
+          printf("Enter your answer : ");
+          scanf("%d", &ans4);
+
+          if (ans4==1){
+            printf("Correct Answer\n");
+            point4 = 5;
+            printf("You have score %d point\n", point4);
+
+          } else {
+            printf("Wrong Answer\n");
+            point04 = 0;
+            printf("You have scored %d point\n");
+          }
+          printf("5) which of the following is not a database management software?\n\n");
+          printf("1) Mysql\n");
+          printf("2) Oracle\n");
+          printf("3) cobal\n");
+          printf("4) Sybase\n");
+
+          printf("Enter your answer : ");
+          scanf("%d", &ans5);
+
+          if (ans5 == 3){
+            printf("Correct Answer\n");
+            point5 = 5;
+            printf("You have scored %d point\n", point5);
+
+          }
+          else {
+            printf("Wrong Answer\n");
+            point05 = 0;
+            printf("You have scored %d point\n", point05);
+
+          }
+
      }
+
+     return 0;
 
 }
